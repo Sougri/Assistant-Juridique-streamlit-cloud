@@ -10,8 +10,8 @@ from supabase import create_client, Client
 
 # --- Initialisation du client Supabase ---
 # À placer au début de votre script, après les imports
-SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
 # On ne crée le client que si les clés sont bien présentes
 supabase: Client = None
