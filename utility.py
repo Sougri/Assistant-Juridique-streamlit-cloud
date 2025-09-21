@@ -33,7 +33,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # --- Connexion à l'API Google ---
 # Il est recommandé de gérer les secrets de cette manière pour la sécurité
-####os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 if "GOOGLE_API_KEY" in os.environ:
     print("The app is connected to google")
 else :
