@@ -1,0 +1,17 @@
+# .streamlit/config.toml
+
+[theme]
+# Couleur principale pour les éléments interactifs (boutons, etc.)
+primaryColor="#1b691f"  # Un vert matériel et accessible
+
+# Couleur de fond principale de l'application
+backgroundColor="#FFFFFF"  # Blanc pur
+
+# Couleur de fond pour les sidebars, les menus, etc.
+secondaryBackgroundColor="#d9d9d9" # Un gris très clair et doux
+
+# Couleur du texte principal
+textColor="#212121" # Un noir doux, pas trop agressif
+
+# Police de caractères à utiliser (sans-serif est moderne et lisible)
+font="sans-serif"
